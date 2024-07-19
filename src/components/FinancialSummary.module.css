@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    gap: 20px; /* Space between elements */
+  }
+  
+  .autopilot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .indicator {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 10px;
+  }
+  
+  .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .approvals {
+    margin-top: 10px;
+  }
+  
+  .approved, .unapproved {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00b894;
+    margin-right: 5px;
+  }
+  
+  .unapproved .circle {
+    background-color: #d63031;
+  }
+  
+  .expenditure, .savings {
+    background-color: #2d3436;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    flex-basis: 150px;
+  }
+  
+  h2 {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  span {
+    font-size: 16px;
+  }
+  
+  .arrowContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  
+  .arrowUp, .arrowDown {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: 5px 0;
+  }
+  
+  .arrowDown {
+    transform: rotate(180deg);
+  }
